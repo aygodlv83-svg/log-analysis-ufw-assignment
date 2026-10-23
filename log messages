@@ -1,0 +1,50 @@
+22:17:01 cron: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+21:40:57 sudo: ubuntu : TTY=/dev/pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw deny from 192.168.78.128 to any port 80 proto tcp
+21:32:46 systemd: Finished ubuntu-insights-collect.service - "Collect platform report using Ubuntu Insights while respecting consent".
+21:32:46 ubuntu-insights: 2026/10/20 21:32:46 ERROR failed to collect insights: insights write failed: report already exists for this period
+21:32:45 systemd: Starting ubuntu-insights-collect.service - "Collect platform report using Ubuntu Insights while respecting consent"...
+21:28:01 ModemManager: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0': not supported by any plugin
+21:27:57 systemd: update-notifier-crash.path - Path trigger for Apport crash notifications skipped, unmet condition check ConditionPathExists=!/var/lib/apport/autoreport
+21:27:57 ModemManager: <wrn> [plugin-manager] task 0: port context already scheduled
+21:27:57 alsactl: alsa-lib main.c:1804:(snd_use_case_mgr_open) [error.ucm] failed to import hw:0 use case configuration -2
+21:27:54 systemd: snapd.autoimport.service - Auto import assertions from block devices skipped, no trigger condition checks were met.
+21:27:45 kernel: ata32: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eef80 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata31: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eef00 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata30: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eee80 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata29: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eee00 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata28: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eed80 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata27: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eed00 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata26: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eec80 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata25: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eec00 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata24: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eeb80 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata23: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eeb00 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata22: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eea80 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata21: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eea00 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata20: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee980 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata19: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee900 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata18: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee880 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata17: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee800 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata16: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee780 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata15: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee700 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata14: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee680 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata13: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee600 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata12: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee580 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata11: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee500 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata10: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee480 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata9: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee400 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata8: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee380 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata7: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee300 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata6: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee280 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata5: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee200 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata4: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee180 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ata3: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee100 irq 56 lpm-pol 1 ext
+21:27:45 kernel: ahci 0000:02:04.0: 30/30 ports implemented (port mask 0x3fffffff)
+21:27:43 kernel: ppdev: user-space parallel port driver
+21:27:43 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+21:27:43 kernel: uhci_hcd 0000:02:00.0: irq 18, io port 0x00002080
+21:27:43 kernel: pcieport 0000:00:18.7: pciehp: Slot #263 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+21:27:43 kernel: mctp: management component transport protocol core
+21:27:43 kernel: PTP clock support registered
+21:27:43 kernel: acpi PNP0A03:00: _OSC: platform does not support [AER LTR DPC]
+21:27:43 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+21:27:43 kernel: ACPI: \_SB_: platform _OSC: OS support mask [006e7eff]
