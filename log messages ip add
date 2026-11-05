@@ -1,0 +1,5 @@
+22:27:57 NetworkManager: <info>  [1792531677.4588] dhcp4 (ens33): state changed new lease, address=192.168.78.132
+21:40:57 sudo: ubuntu : TTY=/dev/pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw deny from 192.168.78.128 to any port 80 proto tcp
+21:27:57 systemd-resolve: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.78.2.
+21:27:57 avahi-daemon: Registering new address record for 192.168.78.132 on ens33.IPv4.
+21:27:57 NetworkManager: <info>  [1792528077.5836] dhcp4 (ens33): state changed new lease, address=192.168.78.132
