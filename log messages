@@ -1,50 +1,51 @@
-22:17:01 cron: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
-21:40:57 sudo: ubuntu : TTY=/dev/pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw deny from 192.168.78.128 to any port 80 proto tcp
-21:32:46 systemd: Finished ubuntu-insights-collect.service - "Collect platform report using Ubuntu Insights while respecting consent".
-21:32:46 ubuntu-insights: 2026/10/20 21:32:46 ERROR failed to collect insights: insights write failed: report already exists for this period
-21:32:45 systemd: Starting ubuntu-insights-collect.service - "Collect platform report using Ubuntu Insights while respecting consent"...
-21:28:01 ModemManager: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0': not supported by any plugin
-21:27:57 systemd: update-notifier-crash.path - Path trigger for Apport crash notifications skipped, unmet condition check ConditionPathExists=!/var/lib/apport/autoreport
-21:27:57 ModemManager: <wrn> [plugin-manager] task 0: port context already scheduled
-21:27:57 alsactl: alsa-lib main.c:1804:(snd_use_case_mgr_open) [error.ucm] failed to import hw:0 use case configuration -2
-21:27:54 systemd: snapd.autoimport.service - Auto import assertions from block devices skipped, no trigger condition checks were met.
-21:27:45 kernel: ata32: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eef80 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata31: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eef00 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata30: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eee80 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata29: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eee00 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata28: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eed80 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata27: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eed00 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata26: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eec80 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata25: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eec00 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata24: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eeb80 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata23: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eeb00 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata22: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eea80 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata21: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eea00 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata20: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee980 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata19: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee900 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata18: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee880 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata17: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee800 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata16: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee780 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata15: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee700 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata14: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee680 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata13: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee600 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata12: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee580 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata11: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee500 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata10: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee480 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata9: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee400 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata8: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee380 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata7: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee300 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata6: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee280 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata5: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee200 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata4: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee180 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ata3: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee100 irq 56 lpm-pol 1 ext
-21:27:45 kernel: ahci 0000:02:04.0: 30/30 ports implemented (port mask 0x3fffffff)
-21:27:43 kernel: ppdev: user-space parallel port driver
-21:27:43 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
-21:27:43 kernel: uhci_hcd 0000:02:00.0: irq 18, io port 0x00002080
-21:27:43 kernel: pcieport 0000:00:18.7: pciehp: Slot #263 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
-21:27:43 kernel: mctp: management component transport protocol core
-21:27:43 kernel: PTP clock support registered
-21:27:43 kernel: acpi PNP0A03:00: _OSC: platform does not support [AER LTR DPC]
-21:27:43 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
-21:27:43 kernel: ACPI: \_SB_: platform _OSC: OS support mask [006e7eff]
+23:32:48 chronyd: Could not receive NTS-KE message from 91.189.91.111:4460 (ntp-bootstrap.ubuntu.com) : The TLS connection was non-properly terminated.
+23:32:44 kernel: [UFW ALLOW] IN= OUT=ens33 SRC=192.168.78.132 DST=185.125.190.122 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=4640 DF PROTO=TCP SPT=54282 DPT=4460 WINDOW=64240 RES=0x00 SYN URGP=0 
+23:31:53 kernel: workqueue: psi_avgs_work hogged CPU for >10000us 7 times, consider switching to WQ_UNBOUND
+23:31:34 kernel: [UFW ALLOW] IN= OUT=ens33 SRC=192.168.78.132 DST=192.168.78.2 LEN=65 TOS=0x00 PREC=0x00 TTL=64 ID=34355 PROTO=UDP SPT=40374 DPT=53 LEN=45 
+23:30:23 systemd: anacron.service: Deactivated successfully.
+23:30:23 anacron: Normal exit (0 jobs run)
+23:30:23 systemd: NetworkManager-dispatcher.service: Deactivated successfully.
+23:30:13 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+23:30:13 systemd: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+23:30:13 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=1032 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+23:30:13 NetworkManager: <info>  [1793658613.4149] dhcp4 (ens33): state changed new lease, address=192.168.78.132
+23:30:02 kernel: [UFW AUDIT] IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.53 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=32921 DF PROTO=UDP SPT=39981 DPT=53 LEN=48 
+23:30:01 cron: pam_unix(cron:session): session closed for user root
+23:30:01 systemd: Finished sysstat-collect.service - system activity accounting tool.
+23:30:01 kernel: [UFW ALLOW] IN= OUT=ens33 SRC=192.168.78.132 DST=192.168.78.2 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=35087 PROTO=UDP SPT=56165 DPT=53 LEN=48 
+23:30:01 systemd: Starting sysstat-collect.service - system activity accounting tool...
+23:30:01 kernel: [UFW ALLOW] IN= OUT=ens33 SRC=192.168.78.132 DST=192.168.78.2 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=20583 PROTO=UDP SPT=44770 DPT=53 LEN=50 
+23:29:37 systemd: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+23:29:01 kernel: [UFW AUDIT] IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.53 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=30339 DF PROTO=UDP SPT=53195 DPT=53 LEN=61 
+23:28:55 kernel: workqueue: css_release_work_fn hogged CPU for >10000us 7 times, consider switching to WQ_UNBOUND
+23:28:55 systemd: NetworkManager-dispatcher.service: Deactivated successfully.
+23:28:54 kernel: [UFW AUDIT] IN=ens33 OUT= MAC=33:33:00:00:00:fb:00:50:56:c0:00:08:86:dd SRC=fe80:0000:0000:0000:3733:1532:403e:c6b1 DST=ff02:0000:0000:0000:0000:0000:0000:00fb LEN=125 TC=0 HOPLIMIT=1 FLOWLBL=620782 PROTO=UDP SPT=5353 DPT=5353 LEN=85 
+23:28:45 systemd: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+23:28:45 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+23:28:45 systemd: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+23:28:45 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=1032 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+23:28:45 NetworkManager: <info>  [1793658525.0782] manager: NetworkManager state is now CONNECTED_GLOBAL
+23:28:43 kernel: [UFW AUDIT] IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.53 LEN=92 TOS=0x00 PREC=0x00 TTL=64 ID=60574 DF PROTO=UDP SPT=45808 DPT=53 LEN=72 
+23:28:24 kernel: workqueue: psi_avgs_work hogged CPU for >10000us 5 times, consider switching to WQ_UNBOUND
+23:28:01 kernel: [UFW AUDIT] IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.53 LEN=68 TOS=0x00 PREC=0x00 TTL=64 ID=28215 DF PROTO=UDP SPT=35766 DPT=53 LEN=48 
+23:26:45 kernel: workqueue: css_release_work_fn hogged CPU for >10000us 5 times, consider switching to WQ_UNBOUND
+23:26:44 kernel: [UFW AUDIT] IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.53 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=3105 DF PROTO=UDP SPT=48746 DPT=53 LEN=76 
+23:26:43 kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 11 times, consider switching to WQ_UNBOUND
+23:26:42 kernel: [UFW AUDIT] IN= OUT=ens33 SRC=192.168.78.132 DST=199.232.169.91 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=50875 DF PROTO=TCP SPT=50296 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+23:26:41 gnome-logs: The resource style-hc.css is deprecated and shouldn't be used anymore. Use style.css with media queries instead.
+23:26:41 dbus-daemon: [session uid=1000 pid=2540 pidfd=5] Successfully activated service 'org.gnome.Logs'
+23:26:34 kernel: [UFW ALLOW] IN= OUT=ens33 SRC=192.168.78.132 DST=199.232.169.91 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=2137 DF PROTO=TCP SPT=50272 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+23:25:04 snapd: devicemgr.go:3132: no NTP sync after 10m0s, trying auto-refresh anyway
+23:25:02 kernel: [UFW AUDIT] IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.53 LEN=81 TOS=0x00 PREC=0x00 TTL=64 ID=32340 DF PROTO=UDP SPT=35643 DPT=53 LEN=61 
+23:24:39 systemd: NetworkManager-dispatcher.service: Deactivated successfully.
+23:24:33 kernel: [UFW ALLOW] IN= OUT=ens33 SRC=192.168.78.132 DST=192.168.78.2 LEN=87 TOS=0x00 PREC=0x00 TTL=64 ID=58462 PROTO=UDP SPT=48136 DPT=53 LEN=67 
+23:24:28 systemd: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+23:24:28 dbus-daemon: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+23:24:28 systemd: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+23:24:28 dbus-daemon: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=1032 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+23:24:23 kernel: [UFW AUDIT] IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.53 LEN=98 TOS=0x00 PREC=0x00 TTL=64 ID=44612 DF PROTO=UDP SPT=57004 DPT=53 LEN=78 
+23:24:11 chronyd: NTS-KE session with 91.189.91.111:4460 (ntp-bootstrap.ubuntu.com) timed out
+23:24:08 NetworkManager: ((../src/libnm-systemd-core/src/libsystemd/sd-event/sd-event.c:4488)): assertion '<dropped>' failed
+23:24:04 kernel: [UFW AUDIT] IN=lo OUT= MAC=00:00:00:00:00:00:00:00:00:00:00:00:08:00 SRC=127.0.0.1 DST=127.0.0.53 LEN=93 TOS=0x00 PREC=0x00 TTL=64 ID=5547 DF PROTO=UDP SPT=39561 DPT=53 LEN=73 
+23:22:49 kernel: workqueue: psi_avgs_work hogged CPU for >10000us 4 times, consider switching to WQ_UNBOUND
+23:22:45 dbus-daemon: [session uid=1000 pid=2540 pidfd=5] Successfully activated service 'org.gnome.TextEditor'
